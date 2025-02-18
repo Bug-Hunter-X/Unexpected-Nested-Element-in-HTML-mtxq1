@@ -1,0 +1,10 @@
+<p>This is a common error, but it can be difficult to track down.  It is caused by an unexpected nested element within the HTML structure that interferes with expected behaviour.  This example illustrates a problem with improper nested elements resulting in unexpected rendering.</p><pre><code>&lt;div id="container"&gt;
+  &lt;p&gt;This is some text.&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+    &lt;div&gt; &lt;!-- Unexpected nested div --&gt;
+      &lt;li&gt;Incorrectly nested list item&lt;/li&gt;
+    &lt;/div&gt;
+    &lt;li&gt;Item 3&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;</code></pre>
