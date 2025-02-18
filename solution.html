@@ -1,0 +1,11 @@
+<p>The solution involves restructuring the HTML to ensure proper nesting of elements.  The nested `div` within the `ul` should be removed, or if it's necessary, the HTML should be restructured so that the list items are not direct children of the `div`.</p><pre><code>&lt;div id="container"&gt;
+  &lt;p&gt;This is some text.&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+    &lt;li&gt;Item 2&lt;/li&gt; &lt;!-- Corrected --&gt;
+    &lt;li&gt;Item 3&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;div&gt; &lt;!-- Properly placed div outside of the list --&gt;
+    &lt;p&gt;This is some text in a correctly placed div&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
